@@ -1,0 +1,98 @@
+.choicebook {
+    position: relative;
+    width: 100%;
+    min-height: 100vh; /* ให้มีความสูงเต็มหน้าจอ */
+    background-color: #feffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* จัดแนวนอนให้อยู่กึ่งกลาง */
+    
+    
+}
+
+.choiceselect {
+    position: relative;
+    min-height: 150px;
+    min-width: 700px;
+    background-color: #D9D9D9;
+    border-radius: 30px;
+    margin: 30px 0; /* เพิ่มช่องว่างระหว่างบรรทัด */
+    display: flex;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.078);
+}
+
+.airline {
+    position: absolute;
+    left: 20px;
+    top: 55px;
+    display: flex;
+    align-items: center;
+}
+
+.logo-flight {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.name {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.flight-time {
+    position: absolute;
+    top: 55px;
+    left: 150px;
+    text-align: left;
+}
+
+.departure{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.duration {
+    position: absolute;
+    top: 55px;
+    left: 250px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.arrival {
+    position: absolute;
+    top: 55px;
+    left: 450px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.price-section {
+    position: absolute;
+    top: 55px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.book-btn {
+    background-color: #58bfe2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+  
+.book-btn:hover {
+    background-color: #50a6c7;
+}

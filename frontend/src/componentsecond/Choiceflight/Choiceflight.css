@@ -1,0 +1,68 @@
+.choice{
+    display: flex;
+    width: 100%;
+    margin-top: 0;
+  }
+
+.imagesmall{
+    height: 300px;
+    width: 100%;
+    background: linear-gradient(rgba(128, 200, 229, 0.7),rgba(0, 36, 58, 0.7)), url(../../assets/plane.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    position: relative;
+    border-radius: 0 0 10px 10px;
+}
+
+.changeflight {
+    position: absolute;
+    top: 140px; /* ปรับให้ตรงกลางอยู่ที่จุดนี้ */
+    left: 50%;
+    width: 80%; /* ใช้เปอร์เซ็นต์เพื่อความยืดหยุ่น */
+    max-width: 900px;
+    height: auto; /* ให้ความสูงปรับตามเนื้อหา */
+    padding: 20px; /* เพิ่ม padding รอบเนื้อหา */
+    transform: translateX(-50%);
+    background-color: #ffffff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column; /* จัดเรียงเนื้อหาในแนวตั้ง */
+    justify-content: center;
+    border: 2px solid #69ABC1;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.changeflight h1, .changeflight h2 {
+    margin: 0;
+    text-align: left; /* ทำให้ข้อความจัดชิดซ้าย */
+    padding-left: 20px;
+}
+
+.changeflight h1 {
+    position: relative;
+    
+}
+
+.changeflight h2 {
+    font-size: 15px;
+    color: #666;
+}
+
+.changeflight Button{
+    width: 150px;
+    left: 700px;
+    margin-top: -30px;
+}
+
+.custom {
+    color: #ffffff;
+    background-color: #58bfe2;
+    border: none;
+  }
+  
+.custom:hover {
+    color: #ffffff !important;
+    background-color: #1c95be !important; /* เปลี่ยนสีเมื่อ hover */
+}

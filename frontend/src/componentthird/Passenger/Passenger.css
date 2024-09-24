@@ -1,0 +1,261 @@
+.passenger{
+    width: 100%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.047);
+    position: relative;
+    display: flex;
+    justify-content: center;
+   padding-bottom: 100px;
+}
+
+.passinfo{
+    margin: 30px 0;
+    width: 570px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+    border-radius: 5px;
+}
+
+.passinfo h1 {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.passinfo h2 {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.553);
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.passinfo h3 {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.553);
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.passinfo h4 {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.553);
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    left: 300px;
+    top: 115px;
+    position: absolute;
+}
+
+.passinfo h5 {
+    font-size: 14px;
+    display: flex;
+    color: rgba(0, 0, 0, 0.553);
+    flex-direction: column;
+    margin: 10px 10px;
+    
+}
+
+.passinfo h6 {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.553);
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.passbaggage{
+    width: 570px;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.passbaggage h1{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.passbaggage h2 {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.553);
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.place{
+    margin-top: 100px;
+    height: auto;
+}
+
+.contect{
+    width: 570px;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+    border-radius: 5px;
+}
+
+.contect h1 {
+    padding: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+}
+
+.contect-phone{
+    position: absolute;
+    margin: 10px;
+}
+
+.contect-phone h2 {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.553);
+}
+
+.contect-email{
+    position: absolute;
+    left: 300px;
+    top: 53px;
+    margin: 10px;
+}
+
+.contect-email h3 {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.553);
+}
+
+.passseat{
+    width: 570px;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+.passseat h1{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.passseat h2 {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.553);
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.passfood{
+    width: 570px;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+.passfood h1{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.passfood h2 {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.553);
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.placeside{
+    margin-top: 100px;
+}
+
+.dataflight{
+    width: 400px;
+    height: 190px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    margin-left: 50px;
+    position: relative;
+    border-radius: 5px;
+}
+
+.total{
+    width: 400px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    margin: 190px 50px;
+    position: fixed;
+    border-radius: 5px;
+}
+
+.dataflight h1{
+    font-size: 16px;
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.dataflight h3{
+    font-size: 14px;
+    margin: 10px;
+}
+
+.logoflight{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(222, 33, 33);
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.logoplace{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 10px;
+    position: absolute;
+    left: 20px;
+    bottom: 45px;
+}
+
+.timelineplace{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 10px;
+    position: absolute;
+    left: 100px;
+    bottom: 0px;
+}
+
+.placeseat{
+    width: 100%;
+    height: 400px;
+    background-color: antiquewhite;
+}
