@@ -26,7 +26,7 @@
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-.passinfo h2 {
+.h2 {
     font-size: 14px;
     color: rgba(0, 0, 0, 0.553);
     display: flex;
@@ -34,7 +34,7 @@
     margin: 10px;
 }
 
-.passinfo h3 {
+.h3 {
     font-size: 14px;
     color: rgba(0, 0, 0, 0.553);
     display: flex;
@@ -42,7 +42,7 @@
     margin: 10px;
 }
 
-.passinfo h4 {
+.h4 {
     font-size: 14px;
     color: rgba(0, 0, 0, 0.553);
     display: flex;
@@ -53,7 +53,7 @@
     position: absolute;
 }
 
-.passinfo h5 {
+.h5 {
     font-size: 14px;
     display: flex;
     color: rgba(0, 0, 0, 0.553);
@@ -62,7 +62,7 @@
     
 }
 
-.passinfo h6 {
+.h6 {
     font-size: 14px;
     color: rgba(0, 0, 0, 0.553);
     display: flex;
@@ -86,7 +86,7 @@
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-.passbaggage h2 {
+.b {
     font-size: 14px;
     color: rgba(0, 0, 0, 0.553);
     display: flex;
@@ -136,59 +136,6 @@
     color: rgba(0, 0, 0, 0.553);
 }
 
-.passseat{
-    width: 570px;
-    height: 150px;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-    margin-top: 30px;
-    border-radius: 5px;
-}
-
-.passseat h1{
-    font-size: 20px;
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-}
-
-.passseat h2 {
-    font-size: 14px;
-    color: rgba(0, 0, 0, 0.553);
-    display: flex;
-    flex-direction: column;
-    margin: 10px;
-    padding: 10px;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    border-radius: 5px;
-}
-
-.passfood{
-    width: 570px;
-    height: 150px;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-    margin-top: 30px;
-    border-radius: 5px;
-}
-
-.passfood h1{
-    font-size: 20px;
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-}
-
-.passfood h2 {
-    font-size: 14px;
-    color: rgba(0, 0, 0, 0.553);
-    display: flex;
-    flex-direction: column;
-    margin: 10px;
-    padding: 10px;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    border-radius: 5px;
-}
 
 .placeside{
     margin-top: 100px;
