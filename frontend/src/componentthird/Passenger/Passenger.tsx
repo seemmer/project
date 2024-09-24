@@ -25,14 +25,18 @@ const Passenger = () => {
     console.log('Form data:', data);
   };
 
+  const onFinishFailed = (errorInfo: any) => {
+    console.log('Failed:', errorInfo);
+  };
+
   return (
     <div className="passenger">
-      <Form form={form} onFinish={onFinish}>
+      <Form form={form} onFinish={onFinish} onFinishFailed={onFinishFailed}>
         <div className="place">
           <div className="contect">
             <h1>ข้อมูลการติดต่อ</h1>
             <div className="contect-phone">
-                <Form.Item label="หมายเลขโทรศัพท์มือถือ" layout='vertical' name="phone" rules={[{ required: true, message: 'กรุณากรอกเบอร์โทรศัพท์' }]}>
+                <Form.Item label="หมายเลขโทรศัพท์มือถือ" layout='vertical' name="phone" rules={[{ required: true, message: '' }]}>
                  <Space.Compact style={{ width: 250 }}> 
                     <Select defaultValue="+66" options={options}/>
                     <Input placeholder="Phone number" />
@@ -41,7 +45,7 @@ const Passenger = () => {
             </div>
 
             <div className="contect-email">
-              <Form.Item label="อีเมลล์" name="email" layout='vertical' rules={[{ required: true, message: 'กรุณากรอกอีเมล' }]}>
+              <Form.Item label="อีเมลล์" name="email" layout='vertical' rules={[{ required: true, message: '' }]}>
                 <Input style={{ width: 250 }} suffix=".com" placeholder="email@example.com" />
               </Form.Item>
             </div>
@@ -50,7 +54,7 @@ const Passenger = () => {
           <div className="passinfo">
             <h1>รายละเอียดผู้โดยสาร</h1>
             <div className="h2">
-            <Form.Item label='คำนำหน้า' layout='vertical' name="title" rules={[{ required: true, message: 'กรุณาเลือกคำนำหน้า' }]}>
+            <Form.Item label='คำนำหน้า' layout='vertical' name="title" rules={[{ required: true, message: '' }]}>
                 <Select style={{ width: 120 }} options={[
                   { value: 'นาย', label: 'นาย' },
                   { value: 'นาง', label: 'นาง' },
@@ -59,27 +63,27 @@ const Passenger = () => {
             </Form.Item>
             </div>
             <div className="h3">
-            <Form.Item label='ชื่อจริง' name="firstname" layout='vertical' rules={[{ required: true, message: 'กรุณากรอกชื่อ' }]}>
+            <Form.Item label='ชื่อจริง' name="firstname" layout='vertical' rules={[{ required: true, message: '' }]}>
               <Input style={{ width: 250 }} placeholder="Ex. สมใจ" />
             </Form.Item>
             </div>
             <div className="h4">
-            <Form.Item label='นามสกุล' name="lastname" layout='vertical' rules={[{ required: true, message: 'กรุณากรอกนามสกุล' }]}>
+            <Form.Item label='นามสกุล' name="lastname" layout='vertical' rules={[{ required: true, message: '' }]}>
               <Input style={{ width: 250 }} placeholder="Ex. ได้เอ" />
             </Form.Item>
             </div>
             <div className="h5">
-            <Form.Item label='วันเกิด' name="birthday" layout='vertical' rules={[{ required: true, message: 'กรุณาเลือกวันเกิด' }]}>
+            <Form.Item label='วันเกิด' name="birthday" layout='vertical' rules={[{ required: true, message: '' }]}>
               <DatePicker style={{ width: 250 }} />
             </Form.Item>
             </div>
             <div className="h6">
-            <Form.Item label='หมายเลขหนังสือเดินทาง' layout='vertical' name="passportnumber" rules={[{ required: true, message: 'กรุณากรอกหมายเลขหนังสือเดินทาง' }]}>
+            <Form.Item label='หมายเลขหนังสือเดินทาง' layout='vertical' name="passportnumber" rules={[{ required: true, message: '' }]}>
               <Input style={{ width: 250 }} />
             </Form.Item>
             </div>
             <div className="h6">
-            <Form.Item label='วันหมดอายุหนังสือเดินทาง' layout='vertical' name="passportdate" rules={[{ required: true, message: 'กรุณาเลือกวันหมดอายุหนังสือเดินทาง' }]}>
+            <Form.Item label='วันหมดอายุหนังสือเดินทาง' layout='vertical' name="passportdate" rules={[{ required: true, message: '' }]}>
               <DatePicker style={{ width: 250 }} />
             </Form.Item>
             </div>
@@ -101,6 +105,9 @@ const Passenger = () => {
             </div>
           </div>
         </div>
+        <Form.Item>
+              <Button type="primary" htmlType="submit">ชำระเงิน</Button>
+          </Form.Item>
       </Form>
         <div className="placeside">
           <div className="dataflight">
@@ -119,7 +126,7 @@ const Passenger = () => {
           </div>
 
           <div className="total">
-            <Button type="primary" htmlType="submit">ชำระเงิน</Button>
+            
           </div>
         </div>
       
